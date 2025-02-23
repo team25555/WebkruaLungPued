@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    }
+    
+body{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        font-family:'Mali', cursive;;
+}
+
+nav{
+    background-color: #FFD600;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+
+.container{
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-con img{
+    padding: 0;
+    
+}
+
+
+.menu{
+    padding-top: 0.5rem;
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.menu li{
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.menu li a{
+    padding-top: 2rem;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+.bog-con img{
+    margin: 3rem ;
+    padding: 5rem;
+}
+.blod-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.blog{
+    
+    padding: 1rem;
+}
+.blog-item h3{
+    margin-top: 1rem;
+    text-align: center;
+}
+.blog-item{
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #FF914C;
+}
+footer{
+    background-color: #ff5c00;
+    flex: 0 0 auto;
+
+}
+footer .container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-between;
+}
+
+.footer-item{
+    display: flex; 
+
+}
+
+.footer-deli{
+    padding-right: 5rem;
+    text-align: right;
+}
+
+.footer-deli{
+    text-align: center;
+}
+
+.footer-deli h3{
+    font-size: 24px;
+}
+
+.footer-item h3{
+    font-size: 24px;
+}
+
+
+
+
+    
+
+
+
+    
