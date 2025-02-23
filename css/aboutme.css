@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    height: 100%;
+    }
+    
+body{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        font-family:'Mali', cursive;;
+}
+
+.main-content{
+    flex: 1 0 auto;
+}
+
+nav{
+    background-color: #FFD600;
+    justify-content: space-between;
+    flex: 0 0 auto;
+}
+
+.container{
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nav-con img{
+    padding: 0;
+    
+}
+
+
+.menu{
+    padding-top: 0.5rem;
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+.menu li{
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.menu li a{
+    padding-top: 2rem;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.banner{
+    background-color: #EDE1D1;
+}
+
+.banner .container{
+    justify-content: center;
+    
+}
+
+.BLOG{
+    display: flex;
+    font-size: 34px;
+   
+}
+
+.BLOG .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   padding: 6rem;
+    
+}
+.blog-item h1{
+    padding-bottom: 10rem;
+}
+
+.blog-item h5{
+    padding-top: 4.5rem;
+}
+
+footer{
+    background-color: #FF5C00;
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+
+}
+
+
+.footer-item{
+    display: flex; 
+    width: 20%;
+
+}
+
+.footer-deli{
+    padding-right: 5rem;
+    text-align: right;
+}
+
+.footer-deli{
+    text-align: left;
+}
+
+.footer-deli h3{
+    font-size: 24px;
+}
+
+.footer-item h3{
+    
+}
+body{
+    background-color: #FC8B4C;
+}
+.footer-item h1{
+    text-align: center;
+    padding: 3rem;
+
+ 
+}
+.blog-item h2{
+    color: aliceblue;
+    padding: 2rem;
+
+}
+
+.blog-item p{
+    padding-bottom: 1rem;
+    font-size: 24px;
+}
+
+.blog-item h3{
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-item1  {
+    margin-left: 2rem;
+    justify-content: start;
+    padding-right: 3rem;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 1rem;
+    column-gap: 22rem;
+    font-size: 24px;
+    
+}
+
+
